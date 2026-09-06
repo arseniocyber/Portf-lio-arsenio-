@@ -180,7 +180,33 @@ footer {
     font-size: 1.4em;
   }
   .foto-perfil {
-    width: 140px;
+    width: 140p
+      x;
     height: 140px;
   }
     }
+.icone {
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 180, 216, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.icone i {
+    font-size: 28px;
+    color: #00b4d8;
+}
+
+.projeto:hover .icone {
+    background: #00b4d8;
+    transition: 0.3s ease;
+}
+
+.projeto:hover .icone i {
+    color: #fff;
+}
+
